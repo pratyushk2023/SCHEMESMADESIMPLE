@@ -1,0 +1,20 @@
+packages:
+  "framer-motion": "For premium page transitions and scroll animations"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to merge tailwind classes safely"
+  "date-fns": "For readable date formatting"
+
+images:
+  - path: "artifacts/schemes-made-simple/public/images/hero-bg.png"
+    description: "A clean, modern abstract geometric background in warm blues and greens, representing government trust and growth, very subtle and light"
+    aspect_ratio: "16:9"
+  - path: "artifacts/schemes-made-simple/public/images/about-mission.png"
+    description: "An illustration of diverse Indian citizens interacting with a digital interface, clean corporate vector art style, blue and green color palette"
+    aspect_ratio: "16:9"
+  - path: "artifacts/schemes-made-simple/public/images/chatbot-avatar.png"
+    description: "A friendly, professional AI assistant avatar icon, clean simple vector, blue and white"
+    aspect_ratio: "1:1"
+
+notes:
+  - Uses @workspace/api-client-react for all API calls
+  - Assumes standard API error formats
